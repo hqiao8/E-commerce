@@ -1,7 +1,11 @@
 import Header from "../components/Header";
+import Carousel from "../components/Carousel";
 
 const Home = () => (
-    <Header></Header>
-)
+    <div>
+        <Header/>
+        <Carousel/>
+    </div>
+);
 
-export default Home
+export default Home;
