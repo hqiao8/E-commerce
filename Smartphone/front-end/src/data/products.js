@@ -1,6 +1,6 @@
 const products = [
     {
-        "iphone": [
+        "iPhone": [
             {
                 "model": "15 Pro",
                 "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693009278906",
@@ -208,7 +208,7 @@ const products = [
         ]
     },
     {
-        "galaxy": [
+        "Galaxy": [
             {
                 "model": "S24 Ultra",
                 "image": "https://images.samsung.com/ca/smartphones/galaxy-s24-ultra/buy/kv_group_PC.jpg?imbypass=true",
