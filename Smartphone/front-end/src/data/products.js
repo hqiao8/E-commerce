@@ -2,7 +2,7 @@ const products = [
     {
         "iPhone": [
             {
-                "model": "15 Pro",
+                "model": "iPhone 15 Pro",
                 "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693009278906",
                 "colours": [
                     "Natural Titanium",
@@ -50,7 +50,7 @@ const products = [
                 ]
             },
             {
-                "model": "15",
+                "model": "iPhone 15",
                 "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692925265823",
                 "colours": [
                     "Blue",
@@ -98,7 +98,7 @@ const products = [
                 ]
             },
             {
-                "model": "14",
+                "model": "iPhone 14",
                 "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1676506020153",
                 "colours": [
                     "Blue",
@@ -152,7 +152,7 @@ const products = [
                 ]
             },
             {
-                "model": "13",
+                "model": "iPhone 13",
                 "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1654894185506",
                 "colours": [
                     "Blue",
@@ -210,7 +210,7 @@ const products = [
     {
         "Galaxy": [
             {
-                "model": "S24 Ultra",
+                "model": "Galaxy S24 Ultra",
                 "image": "https://images.samsung.com/ca/smartphones/galaxy-s24-ultra/buy/kv_group_PC.jpg?imbypass=true",
                 "colours": [
                     "Titanium Black",
@@ -266,7 +266,7 @@ const products = [
                 ]
             },
             {
-                "model": "S24",
+                "model": "Galaxy S24",
                 "image": "https://images.samsung.com/ca/smartphones/galaxy-s24/buy/kv_group_PC.jpg?imbypass=true",
                 "colours": [
                     "Cobalt Violet",
@@ -322,7 +322,7 @@ const products = [
                 ]
             },
             {
-                "model": "S23 FE",
+                "model": "Galaxy S23 FE",
                 "image": "https://images.samsung.com/is/image/samsung/assets/ca/s23febuy/S23FEProductGroupKV_pc.jpg?imbypass=true",
                 "colours": [
                     "Mint",
@@ -378,7 +378,7 @@ const products = [
                 ]
             },
             {
-                "model": "S23",
+                "model": "Galaxy S23",
                 "image": "https://images.samsung.com/vn/smartphones/galaxy-s23/buy/kv_group_PC_v2.jpg?imbypass=true",
                 "colours": [
                     "Phantom Black"
