@@ -3,12 +3,13 @@ import "bootstrap/dist/js/bootstrap.js";
 import Card from "./Card";
 
 const TabPane = props => {
+    const products = props.products;
     let cards = [];
-    for (let i = 0; i < props.products.length; i++) {
-        cards.push(<Card product={props.products[i]}/>);
+    for (let i = 0; i < products.length; i++) {
+        cards.push(<Card product={products[i]}/>);
     }
     return (
-        <section className={"tab-pane " + (props.number === "0" ? "active" : "fade")} id={props.id.toLowerCase()}>
+        <section className={"tab-pane " + (props.number === "0" ? "active" : "fade")} id={props.id}>
             <section className="d-flex flex-wrap">
                 {cards}
             </section>
