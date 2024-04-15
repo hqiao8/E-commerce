@@ -14,7 +14,7 @@ const Carousel = props => {
         items.push(<CarouselItem source={images[i]} alternate={props.id + ": Slide " + (i + 1)} number={i.toString()}/>);
     }
     return (
-        <section data-bs-ride="carousel" className="carousel slide" id={id}>
+        <section id={id} data-bs-ride="carousel" className="carousel slide">
             <span className="carousel-indicators">
                 {indicators}
             </span>
