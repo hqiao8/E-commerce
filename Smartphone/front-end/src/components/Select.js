@@ -6,10 +6,10 @@ const Select = props => {
     const options = props.options;
     return (
         <section className="m-1 form-floating">
-            <select id={id} onchange={event => props.setIndex(options.indexOf(event.target.value))} className="form-select" name={props.name}>
+            <select id={id} onChange={event => props.setIndex(options.indexOf(event.target.value))} className="form-select" name={props.name}>
                 {options.map(option => <option value={option}>{option}</option>)}
             </select>
-            <label for={id} className="form-label">
+            <label htmlFor={id} className="form-label">
                 {props.label}
                 <output name="">
                     {props.ouput}
