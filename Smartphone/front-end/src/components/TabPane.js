@@ -9,7 +9,7 @@ const TabPane = props => {
         cards.push(<Card product={products[i]}/>);
     }
     return (
-        <section className={"tab-pane " + (props.number === "0" ? "active" : "fade")} id={props.id}>
+        <section id={props.id} className={"tab-pane " + (props.number === "0" ? "active" : "fade")}>
             <section className="d-flex flex-wrap">
                 {cards}
             </section>
