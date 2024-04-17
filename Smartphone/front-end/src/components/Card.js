@@ -12,7 +12,7 @@ const Card = props => {
     const [j, setJ] = useState(0);
     let price = product.prices[j];
     return [
-        <figure className="card w-50">
+        <figure key="card" className="card w-50">
             <img src={product.image} alt={model} className="card-img-top img-thumbnail w-100"/>
             <figcaption className="card-body">
                 <h6 className="card-title">
@@ -23,7 +23,7 @@ const Card = props => {
                 </button>
             </figcaption>
         </figure>,
-        <section id={id} className="modal fade">
+        <section key="modal" id={id} className="modal fade">
             <section className="modal-dialog modal-fullscreen">
                 <section className="modal-content">
                     <form className="modal-body">

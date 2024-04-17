@@ -10,11 +10,11 @@ const Carousel = props => {
     let indicators = [];
     let items = [];
     for (let i = 0; i < images.length; i++) {
-        indicators.push(<CarouselIndicator id={id} number={i.toString()}/>);
-        items.push(<CarouselItem source={images[i]} alternate={props.id + ": Slide " + (i + 1)} number={i.toString()}/>);
+        indicators.push(<CarouselIndicator key={i} id={id} number={i.toString()}/>);
+        items.push(<CarouselItem source={images[i]} alternate={props.id + ": Slide " + (i + 1)} key={i} number={i.toString()}/>);
     }
     return (
-        <section id={id} data-bs-ride="carousel" className="carousel slide">
+        <section data-bs-ride="carousel" id={id} className="carousel slide">
             <span className="carousel-indicators">
                 {indicators}
             </span>

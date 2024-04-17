@@ -9,8 +9,8 @@ const Tabs = () => {
     let tabPanes = [];
     for (let i = 0; i < products.length; i++) {
         let key = Object.keys(products[i])[0];
-        navItems.push(<NavItem id={key} number={i.toString()}/>);
-        tabPanes.push(<TabPane products={Object.values(products[i])[0]} id={key} number={i.toString()}/>);
+        navItems.push(<NavItem key={i} id={key} number={i.toString()}/>);
+        tabPanes.push(<TabPane products={Object.values(products[i])[0]} key={i} id={key} number={i.toString()}/>);
     }
     return (
         <section className="p-1">
