@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 const Select = props => {
-    const id = props.id.replace(/\s+/g, "-");
+    const id = props.id.toLowerCase().replace(/\s+/g, "-");
     const options = props.options;
     return (
         <section className="m-1 form-floating">

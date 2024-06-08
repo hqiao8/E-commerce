@@ -7,7 +7,7 @@ import Select from "./Select"
 const Card = props => {
     const product = props.product;
     const model = product.model;
-    const id = model.replace(/\s+/g, "-");
+    const id = model.toLowerCase().replace(/\s+/g, "-");
     const [i, setI] = useState(0);
     const [j, setJ] = useState(0);
     let price = product.prices[j];

@@ -6,7 +6,7 @@ import CarouselControl from "./CarouselControl";
 
 const Carousel = props => {
     const images = props.images;
-    const id = props.id.replace(/\s+/g, "-");
+    const id = props.id.toLowerCase().replace(/\s+/g, "-");
     let indicators = [];
     let items = [];
     for (let i = 0; i < images.length; i++) {
