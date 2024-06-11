@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import Tabs from "../components/Tabs";
+import Footer from "../components/Footer";
 
 const Home = () => {
     const images = [
@@ -13,6 +14,7 @@ const Home = () => {
             <Header/>
             <Carousel id="Carousel" images={images}/>
             <Tabs/>
+            <Footer/>
         </div>
     );
 }
