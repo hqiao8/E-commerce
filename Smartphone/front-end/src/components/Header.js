@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import {Link} from 'react-router-dom';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faShoppingCart} from "@fortawesome/free-solid-svg-icons";
 
@@ -8,15 +9,15 @@ const Header = () => (
             SMARTphone
         </span>
         <span className="float-end p-2">
-            <button type="button" className="m-2 btn btn-outline-primary rounded-pill">
+            <Link to="/login" className="m-2 btn btn-outline-primary rounded-pill">
                 Login
-            </button>
-            <button type="button" className="m-2 btn btn-outline-primary rounded-pill">
+            </Link>
+            <Link className="m-2 btn btn-outline-primary rounded-pill">
                 <FontAwesomeIcon icon={faShoppingCart}/>
                 <span className="ms-2 badge bg-warning p-1">
                     0
                 </span>
-            </button>
+            </Link>
         </span>
     </header>
 );
