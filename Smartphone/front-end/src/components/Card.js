@@ -18,7 +18,7 @@ const Card = props => {
                 <h6 className="card-title">
                     {model}
                 </h6>
-                <button type="button" data-bs-toggle="modal" data-bs-target={"#" + id} className="btn btn-primary">
+                <button type="button" data-bs-toggle="modal" data-bs-target={`#${id}`} className="btn btn-primary">
                     Details
                 </button>
             </figcaption>
@@ -27,9 +27,9 @@ const Card = props => {
             <section className="modal-dialog modal-fullscreen">
                 <section className="modal-content">
                     <form className="modal-body">
-                        <Carousel images={product.images[i]} id={model + " Carousel"}/>
-                        <Select options={product.colours} label="Colours" output="" id={model + " Colours"} setIndex={setI} name=""/>
-                        <Select options={product.storages} label={"Storages-$" + price} output={price} id={model + " Storages"} setIndex={setJ} name=""/>
+                        <Carousel images={product.images[i]} id={`${model} Carousel`}/>
+                        <Select options={product.colours} label="Colours" output="" id={`${model} Colours`} setIndex={setI} name=""/>
+                        <Select options={product.storages} label={`Storages-$${price}`} output={price} id={`${model} Storages`} setIndex={setJ} name=""/>
                         <button type="submit" className="m-1 w-25 btn btn-primary">
                             Add
                         </button>
