@@ -8,7 +8,7 @@ const products = [
                     "Natural Titanium",
                     "Blue Titanium",
                     "White Titanium",
-                    "Black Titanium",
+                    "Black Titanium"
                 ],
                 "images": [
                     [
