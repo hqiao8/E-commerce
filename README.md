@@ -1,2 +1,2 @@
 # E-commerce
-Website: [Smartphone](https://e-commerce-smartphone.netlify.app)
+[Smartphone](https://e-commerce-smartphone.netlify.app)
